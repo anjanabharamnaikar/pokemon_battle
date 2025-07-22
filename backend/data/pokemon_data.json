@@ -1,0 +1,116 @@
+{
+    "pikachu": {
+        "id": 25,
+        "name": "Pikachu",
+        "types": ["Electric"],
+        "abilities": ["Static", "Lightning Rod"],
+        "stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "special_attack": 50,
+            "special_defense": 50,
+            "speed": 90
+        },
+        "moves": [
+            {
+                "name": "Thunderbolt",
+                "power": 90,
+                "accuracy": 100,
+                "type": "Electric",
+                "effect": "May cause paralysis"
+            },
+            {
+                "name": "Quick Attack",
+                "power": 40,
+                "accuracy": 100,
+                "type": "Normal",
+                "effect": "Always goes first"
+            },
+            {
+                "name": "Iron Tail",
+                "power": 100,
+                "accuracy": 75,
+                "type": "Steel",
+                "effect": "May lower defense"
+            }
+        ],
+        "evolution_chain": ["Pichu", "Pikachu", "Raichu"]
+    },
+    "chartzard": {
+        "id": 6,
+        "name": "Chartzard",
+        "types": ["Fire", "Flying"],
+        "abilities": ["Blaze", "Solar Power"],
+        "stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "special_attack": 109,
+            "special_defense": 85,
+            "speed": 100
+        },
+        "moves": [
+            {
+                "name": "Flamethrower",
+                "power": 90,
+                "accuracy": 100,
+                "type": "Fire",
+                "effect": "May cause burn"
+            },
+            {
+                "name": "Dragon Claw",
+                "power": 80,
+                "accuracy": 100,
+                "type": "Dragon",
+                "effect": "No additional effect"
+            },
+            {
+                "name": "Air Slash",
+                "power": 75,
+                "accuracy": 95,
+                "type": "Flying",
+                "effect": "May cause flinch"
+            }
+        ],
+        "evolution_chain": ["Charmander", "Charmeleon", "Chartzard"]
+    },
+    "blastoise": {
+        "id": 9,
+        "name": "Blastoise",
+        "types": ["Water"],
+        "abilities": ["Torrent", "Rain Dish"],
+        "stats": {
+            "hp": 79,
+            "attack": 83,
+            "defense": 100,
+            "special_attack": 85,
+            "special_defense": 105,
+            "speed": 78
+        },
+        "moves": [
+            {
+                "name": "Hydro Pump",
+                "power": 110,
+                "accuracy": 80,
+                "type": "Water",
+                "effect": "No additional effect"
+            },
+            {
+                "name": "Ice Beam",
+                "power": 90,
+                "accuracy": 100,
+                "type": "Ice",
+                "effect": "May cause freeze"
+            },
+            {
+                "name": "Flash Cannon",
+                "power": 80,
+                "accuracy": 100,
+                "type": "Steel",
+                "effect": "May lower special defense"
+            }
+        ],
+        "evolution_chain": ["Squirtle", "Wartortle", "Blastoise"]
+    }
+}
