@@ -53,14 +53,14 @@
         "moves": [
             {
                 "name": "Flamethrower",
-                "power": 90,
+                "power": 80,
                 "accuracy": 100,
                 "type": "Fire",
                 "effect": "May cause burn"
             },
             {
                 "name": "Dragon Claw",
-                "power": 80,
+                "power": 90,
                 "accuracy": 100,
                 "type": "Dragon",
                 "effect": "No additional effect"
@@ -112,5 +112,119 @@
             }
         ],
         "evolution_chain": ["Squirtle", "Wartortle", "Blastoise"]
+    },
+    "bulbasaur": {
+        "id": 1,
+        "name": "Bulbasaur",
+        "types": ["Grass", "Poison"],
+        "abilities": ["Overgrow", "Chlorophyll"],
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49,
+            "special_attack": 65,
+            "special_defense": 65,
+            "speed": 45
+        },
+        "moves": [
+            {
+                "name": "Vine Whip",
+                "power": 45,
+                "accuracy": 100,
+                "type": "Grass",
+                "effect": "No additional effect"
+            },
+            {
+                "name": "Sludge Bomb",
+                "power": 90,
+                "accuracy": 100,
+                "type": "Poison",
+                "effect": "May poison the target"
+            },
+            {
+                "name": "Sleep Powder",
+                "power": 0,
+                "accuracy": 75,
+                "type": "Grass",
+                "effect": "May cause sleep"
+            }
+        ],
+        "evolution_chain": ["Bulbasaur", "Ivysaur", "Venusaur"]
+    },
+    "gengar": {
+        "id": 94,
+        "name": "Gengar",
+        "types": ["Ghost", "Poison"],
+        "abilities": ["Cursed Body"],
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "special_attack": 130,
+            "special_defense": 75,
+            "speed": 110
+        },
+        "moves": [
+            {
+                "name": "Shadow Ball",
+                "power": 80,
+                "accuracy": 100,
+                "type": "Ghost",
+                "effect": "May lower special defense"
+            },
+            {
+                "name": "Dark Pulse",
+                "power": 80,
+                "accuracy": 100,
+                "type": "Dark",
+                "effect": "May cause flinch"
+            },
+            {
+                "name": "Dream Eater",
+                "power": 100,
+                "accuracy": 100,
+                "type": "Psychic",
+                "effect": "Only works on sleeping targets"
+            }
+        ],
+        "evolution_chain": ["Gastly", "Haunter", "Gengar"]
+    },
+    "lucario": {
+        "id": 448,
+        "name": "Lucario",
+        "types": ["Fighting", "Steel"],
+        "abilities": ["Steadfast", "Inner Focus"],
+        "stats": {
+            "hp": 70,
+            "attack": 110,
+            "defense": 70,
+            "special_attack": 115,
+            "special_defense": 70,
+            "speed": 90
+        },
+        "moves": [
+            {
+                "name": "Aura Sphere",
+                "power": 80,
+                "accuracy": 0,
+                "type": "Fighting",
+                "effect": "Never misses"
+            },
+            {
+                "name": "Flash Cannon",
+                "power": 80,
+                "accuracy": 100,
+                "type": "Steel",
+                "effect": "May lower special defense"
+            },
+            {
+                "name": "Extreme Speed",
+                "power": 80,
+                "accuracy": 100,
+                "type": "Normal",
+                "effect": "Priority move"
+            }
+        ],
+        "evolution_chain": ["Riolu", "Lucario"]
     }
 }
