@@ -33,7 +33,7 @@ pokemon-battle-mcp-server/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repo-url>
+git clone (https://github.com/anjanabharamnaikar/pokemon_battle.git)
 cd pokemon-battle-mcp-server
 ```
 
